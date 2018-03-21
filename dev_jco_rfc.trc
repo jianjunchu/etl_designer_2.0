@@ -1,0 +1,858 @@
+
+**** Error file opened at 20161126 160519 China Standard Time Rel 3.0.1 (2008-10-21) [720.63]
+Error:  >Sat Nov 26 16:05:19,783<    
+RfcException: [null]
+    message: 'ashost' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:194)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Sat Nov 26 16:05:38,681<    
+RfcException: [null]
+    message: 'ashost' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:194)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Sat Nov 26 16:09:53,946<    
+RfcException: [null]
+    message: 'ashost' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:194)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Sat Nov 26 16:15:51,696<    
+RfcException: [null]
+    message: 'ashost' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:194)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Sat Nov 26 16:20:33,512<    
+RfcException: [null]
+    message: 'ashost' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:194)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Sat Nov 26 16:25:11,699<    
+RfcException: [null]
+    message: 'ashost' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:194)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Sat Nov 26 16:25:12,051<    
+RfcException: [null]
+    message: 'ashost' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:194)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Sat Nov 26 16:25:12,051<    
+RfcException: [null]
+    message: 'ashost' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:194)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Sat Nov 26 16:25:22,196<    
+RfcException: [null]
+    message: 'ashost' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:194)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+
+**** Error file opened at 20161128 143804 China Standard Time Rel 3.0.1 (2008-10-21) [720.63]
+Error: [1] >Mon Nov 28 14:38:04,109<    
+RfcException: [System <empty>|192.168.2.24/00]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Mon Nov 28 14:39:00,749<    
+RfcException: [System <empty>|192.168.2.24/00]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Mon Nov 28 14:39:26,925<    
+RfcException: [System <empty>|192.168.2.24/00]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Mon Nov 28 16:25:15,315<    
+RfcException: [System <empty>|192.168.2.24/00]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Mon Nov 28 16:25:23,001<    
+RfcException: [System <empty>|192.168.2.24/00]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Mon Nov 28 16:26:06,096<    
+RfcException: [System <empty>|192.168.2.24/00]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Mon Nov 28 16:41:32,477<    
+RfcException: [System <empty>|192.168.2.24/00]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Mon Nov 28 16:42:51,012<    
+RfcException: [System <empty>|192.168.2.24/00]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Mon Nov 28 16:43:12,048<    
+RfcException: [System <empty>|192.168.2.24/00]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Mon Nov 28 16:46:29,266<    
+RfcException: [System <empty>|192.168.2.24/00]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+
+**** Error file opened at 20161201 202040 China Standard Time Rel 3.0.1 (2008-10-21) [720.63]
+Error:  >Thu Dec 01 20:20:40,856<    
+RfcException: [null]
+    message: 'sysnr' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:200)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Thu Dec 01 20:20:40,872<    
+RfcException: [null]
+    message: 'sysnr' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:200)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Thu Dec 01 20:20:40,873<    
+RfcException: [null]
+    message: 'sysnr' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:200)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Thu Dec 01 20:20:40,873<    
+RfcException: [null]
+    message: 'sysnr' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:200)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Thu Dec 01 20:20:40,874<    
+RfcException: [null]
+    message: 'sysnr' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:200)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Thu Dec 01 20:20:40,874<    
+RfcException: [null]
+    message: 'sysnr' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:200)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Thu Dec 01 20:21:09,977<    
+RfcException: [null]
+    message: 'sysnr' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:200)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:797)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Thu Dec 01 20:21:21,711<    
+RfcException: [null]
+    message: 'sysnr' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:200)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:797)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+Error:  >Thu Dec 01 20:21:33,538<    
+RfcException: [null]
+    message: 'sysnr' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:200)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:797)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.sap.SAPConnectionFactory.getConnectionTestReport(SAPConnectionFactory.java:63)
+	at org.pentaho.di.core.database.DatabaseMeta.testConnection(DatabaseMeta.java:2489)
+	at org.pentaho.ui.database.event.DataHandler.testDatabaseConnection(DataHandler.java:533)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.pentaho.ui.xul.impl.AbstractXulDomContainer.invoke(AbstractXulDomContainer.java:329)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:139)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:123)
+	at org.pentaho.ui.xul.swt.tags.SwtButton.access$500(SwtButton.java:26)
+	at org.pentaho.ui.xul.swt.tags.SwtButton$4.widgetSelected(SwtButton.java:119)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at org.pentaho.ui.xul.swt.tags.SwtDialog.show(SwtDialog.java:378)
+	at org.pentaho.ui.xul.swt.tags.SwtDialog.show(SwtDialog.java:304)
+	at org.pentaho.di.ui.core.database.dialog.XulDatabaseDialog.open(XulDatabaseDialog.java:115)
+	at org.pentaho.di.ui.core.database.dialog.DatabaseDialog.open(DatabaseDialog.java:62)
+	at org.pentaho.di.ui.trans.step.BaseStepDialog$4.widgetSelected(BaseStepDialog.java:520)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.pentaho.di.ui.trans.steps.sapinput.SapInputDialog.open(SapInputDialog.java:392)
+	at org.pentaho.di.ui.spoon.delegates.SpoonStepsDelegate.editStep(SpoonStepsDelegate.java:136)
+	at org.pentaho.di.ui.spoon.Spoon.editStep(Spoon.java:8134)
+	at org.pentaho.di.ui.spoon.trans.TransGraph.editStep(TransGraph.java:2765)
+	at org.pentaho.di.ui.spoon.trans.TransGraph.mouseDoubleClick(TransGraph.java:714)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.pentaho.di.ui.spoon.Spoon.readAndDispatch(Spoon.java:1194)
+	at org.pentaho.di.ui.spoon.Spoon.start(Spoon.java:7288)
+	at org.pentaho.di.ui.spoon.Spoon.main(Spoon.java:578)
+
+Error:  >Thu Dec 01 20:28:31,010<    
+RfcException: [null]
+    message: 'sysnr' is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:200)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.SapInput.init(SapInput.java:177)
+	at org.pentaho.di.trans.step.StepInitThread.run(StepInitThread.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+
+**** Error file opened at 20161210 120517 China Standard Time Rel 3.0.1 (2008-10-21) [720.63]
+Error: [1] >Sat Dec 10 12:05:17,190<    
+RfcException: [System <empty>|192.168.2.26/01]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:05:26,065<    
+RfcException: [System <empty>|192.168.2.26/01]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:05:31,758<    
+RfcException: [System <empty>|192.168.2.26/01]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:05:46,155<    
+RfcException: [System <empty>|192.168.2.26/01]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error:  >Sat Dec 10 12:06:00,122<    
+RfcException: [null]
+    message: 'sysnr' needs to be a two digit number string instead of 'zpp'
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:215)
+	at com.sap.conn.rfc.api.RfcApi.RfcOpen(RfcApi.java:75)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1263)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:661)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:171)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:44)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:160)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:766)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:794)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:32)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:865)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.getFunction(SAPConnectionImpl.java:197)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.test(SAPConnectionImpl.java:113)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:94)
+	at org.pentaho.di.trans.steps.sapinput.sap.impl.SAPConnectionImpl.open(SAPConnectionImpl.java:65)
+	at org.pentaho.di.trans.steps.sapinput.sap.SAPConnectionFactory.getConnectionTestReport(SAPConnectionFactory.java:63)
+	at org.pentaho.di.core.database.DatabaseMeta.testConnection(DatabaseMeta.java:2489)
+	at org.pentaho.ui.database.event.DataHandler.testDatabaseConnection(DataHandler.java:533)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.pentaho.ui.xul.impl.AbstractXulDomContainer.invoke(AbstractXulDomContainer.java:329)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:139)
+	at org.pentaho.ui.xul.impl.AbstractXulComponent.invoke(AbstractXulComponent.java:123)
+	at org.pentaho.ui.xul.swt.tags.SwtButton.access$500(SwtButton.java:26)
+	at org.pentaho.ui.xul.swt.tags.SwtButton$4.widgetSelected(SwtButton.java:119)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at org.pentaho.ui.xul.swt.tags.SwtDialog.show(SwtDialog.java:378)
+	at org.pentaho.ui.xul.swt.tags.SwtDialog.show(SwtDialog.java:304)
+	at org.pentaho.di.ui.core.database.dialog.XulDatabaseDialog.open(XulDatabaseDialog.java:115)
+	at org.pentaho.di.ui.core.database.dialog.DatabaseDialog.open(DatabaseDialog.java:62)
+	at org.pentaho.di.ui.trans.step.BaseStepDialog$4.widgetSelected(BaseStepDialog.java:520)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.pentaho.di.ui.trans.steps.sapinput.SapInputDialog.open(SapInputDialog.java:392)
+	at org.pentaho.di.ui.spoon.delegates.SpoonStepsDelegate.editStep(SpoonStepsDelegate.java:136)
+	at org.pentaho.di.ui.spoon.Spoon.editStep(Spoon.java:8134)
+	at org.pentaho.di.ui.spoon.trans.TransGraph.editStep(TransGraph.java:2765)
+	at org.pentaho.di.ui.spoon.trans.TransGraph.mouseDoubleClick(TransGraph.java:714)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.pentaho.di.ui.spoon.Spoon.readAndDispatch(Spoon.java:1194)
+	at org.pentaho.di.ui.spoon.Spoon.start(Spoon.java:7288)
+	at org.pentaho.di.ui.spoon.Spoon.main(Spoon.java:578)
+
+Error: [1] >Sat Dec 10 12:06:08,820<    
+RfcException: [System <empty>|192.168.2.28/02]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:06:22,242<    
+RfcException: [System <empty>|192.168.2.27/02]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:10:45,610<    
+RfcException: [System <empty>|192.168.2.28/02]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:11:23,965<    
+RfcException: [System <empty>|192.168.2.27/02]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:12:54,058<    
+RfcException: [System <empty>|192.168.2.28/02]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:13:05,472<    
+RfcException: [System <empty>|192.168.2.28/02]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:15:50,298<    
+RfcException: [System <empty>|192.168.2.28/02]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:15:56,800<    
+RfcException: [System <empty>|192.168.2.28/02]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:16:10,073<    
+RfcException: [System <empty>|192.168.2.28/02]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+Error: [1] >Sat Dec 10 12:17:45,911<    
+RfcException: [System <empty>|192.168.2.28/02]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+
+**** Error file opened at 20170107 145337 China Standard Time Rel 3.0.1 (2008-10-21) [720.63]
+Error:  >Sat Jan 07 14:53:37,078<    >RfcGetException rc (7) message: SQL error in the database when accessing a table.
+<RfcGetException
+
+Error:  >Sat Jan 07 15:05:19,454<    >RfcGetException rc (7) message: SQL error in the database when accessing a table.
+<RfcGetException
+
+Error:  >Sat Jan 07 15:08:50,384<    >RfcGetException rc (7) message: SQL error in the database when accessing a table.
+<RfcGetException
+
+
+**** Error file opened at 20170313 163529 China Standard Time Rel 3.0.1 (2008-10-21) [720.63]
+Error:  >Mon Mar 13 16:35:29,982<    >RfcGetException rc (21) message:      ??????????¡Á???????                                                  
+<RfcGetException
+
+Error: [1] >Mon Mar 13 16:35:30,315<    
+RfcException: [System ZPP|zp2]
+    message:      ??????????¡Á???????                                                  
+    Return code: RFC_SYS_EXCEPTION(3)
+    error group: 104
+    key: RFC_ERROR_SYSTEM_FAILURE
+Error:  >Mon Mar 13 16:45:23,560<    >RfcGetException rc (21) message:      ??????????¡Á???????                                                  
+<RfcGetException
+
+Error: [1] >Mon Mar 13 16:45:23,560<    
+RfcException: [System ZPP|zp2]
+    message:      ??????????¡Á???????                                                  
+    Return code: RFC_SYS_EXCEPTION(3)
+    error group: 104
+    key: RFC_ERROR_SYSTEM_FAILURE
+Error:  >Mon Mar 13 16:47:31,583<    >RfcGetException rc (21) message:      ??????????¡Á???????                                                  
+<RfcGetException
+
+Error: [1] >Mon Mar 13 16:47:31,583<    
+RfcException: [System ZPP|zp2]
+    message:      ??????????¡Á???????                                                  
+    Return code: RFC_SYS_EXCEPTION(3)
+    error group: 104
+    key: RFC_ERROR_SYSTEM_FAILURE
+Error:  >Mon Mar 13 16:52:16,538<    >RfcGetException rc (21) message:      ??????????¡Á???????                                                  
+<RfcGetException
+
+Error: [1] >Mon Mar 13 16:52:16,538<    
+RfcException: [System ZPP|zp2]
+    message:      ??????????¡Á???????                                                  
+    Return code: RFC_SYS_EXCEPTION(3)
+    error group: 104
+    key: RFC_ERROR_SYSTEM_FAILURE
+Error:  >Mon Mar 13 16:55:54,700<    >RfcGetException rc (21) message:      ??????????¡Á???????                                                  
+<RfcGetException
+
+Error: [1] >Mon Mar 13 16:55:54,700<    
+RfcException: [System ZPP|zp2]
+    message:      ??????????¡Á???????                                                  
+    Return code: RFC_SYS_EXCEPTION(3)
+    error group: 104
+    key: RFC_ERROR_SYSTEM_FAILURE
+Error:  >Mon Mar 13 16:59:59,417<    >RfcGetException rc (21) message:      ??????????¡Á???????                                                  
+<RfcGetException
+
+Error: [1] >Mon Mar 13 16:59:59,417<    
+RfcException: [System ZPP|zp2]
+    message:      ??????????¡Á???????                                                  
+    Return code: RFC_SYS_EXCEPTION(3)
+    error group: 104
+    key: RFC_ERROR_SYSTEM_FAILURE
+Error:  >Mon Mar 13 17:23:48,308<    >RfcGetException rc (21) message:      ??????????¡Á???????                                                  
+<RfcGetException
+
+Error: [1] >Mon Mar 13 17:23:48,308<    
+RfcException: [System ZPP|zp2]
+    message:      ??????????¡Á???????                                                  
+    Return code: RFC_SYS_EXCEPTION(3)
+    error group: 104
+    key: RFC_ERROR_SYSTEM_FAILURE
+Error:  >Mon Mar 13 17:25:22,867<    >RfcGetException rc (21) message:      ??????????¡Á???????                                                  
+<RfcGetException
+
+Error: [1] >Mon Mar 13 17:25:22,867<    
+RfcException: [System ZPP|zp2]
+    message:      ??????????¡Á???????                                                  
+    Return code: RFC_SYS_EXCEPTION(3)
+    error group: 104
+    key: RFC_ERROR_SYSTEM_FAILURE
+Error:  >Mon Mar 13 17:32:22,853<    >RfcGetException rc (21) message:      ??????????¡Á???????                                                  
+<RfcGetException
+
+Error: [1] >Mon Mar 13 17:32:22,853<    
+RfcException: [System ZPP|zp2]
+    message:      ??????????¡Á???????                                                  
+    Return code: RFC_SYS_EXCEPTION(3)
+    error group: 104
+    key: RFC_ERROR_SYSTEM_FAILURE
+Error: [1] >Mon Mar 13 17:34:07,176<    
+RfcException: [System <empty>|192.168.2.26/01]
+    message: Handle close pending
+    Return code: RFC_CLOSED(6)
+    error group: 109
+    key: RFC_ERROR_CANCELLED
+
+**** Error file opened at 20170314 082354 China Standard Time Rel 3.0.1 (2008-10-21) [720.63]
+Error:  >Tue Mar 14 08:23:54,988<    >RfcGetException rc (21) message:      ??¡ã? ____.__.__ ????????????                                        
+<RfcGetException
+
+Error: [1] >Tue Mar 14 08:23:55,007<    
+RfcException: [System ZPP|zp1]
+    message:      ??¡ã? ____.__.__ ????????????                                        
+    Return code: RFC_SYS_EXCEPTION(3)
+    error group: 104
+    key: RFC_ERROR_SYSTEM_FAILURE
