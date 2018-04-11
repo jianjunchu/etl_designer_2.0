@@ -406,7 +406,8 @@ public class PGBulkLoader extends BaseStep implements StepInterface
 		    			if (valueMeta.isStorageBinaryString()) {
 		    				data.pgOutputStream.write((byte[])valueData);
 		    			} else {
-		    				data.pgOutputStream.write(Double.toString(valueMeta.getNumber(valueData)).getBytes());
+							data.pgOutputStream.write(Long.toString(valueMeta.getInteger(valueData)).getBytes());
+		    				//data.pgOutputStream.write(Double.toString(valueMeta.getNumber(valueData)).getBytes());
 		    			}
 		    			break;
 		    		case ValueMetaInterface.TYPE_NUMBER:
